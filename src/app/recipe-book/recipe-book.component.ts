@@ -8,6 +8,7 @@ import { Recipe } from './recipe.model';
 })
 export class RecipeBookComponent implements OnInit {
 
+  selectedRecipe!: Recipe;
   recipes: Recipe[] = [];
   constructor() { }
 
