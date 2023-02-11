@@ -6,5 +6,12 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AuthService {
 
-  constructor(private http : HttpClient) { }
+  constructor(private http : HttpClient) {
+
+  }
+
+
+  signUp(){
+    // this.http.post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithCustomToken?key=[API_KEY]')
+  }
 }
